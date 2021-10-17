@@ -1,0 +1,29 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.box-conteiner {
+	padding: 5vw 24px;
+	display: flex;
+	justify-content: space-evenly;
+}
+.box-red {
+	display: flex;
+	width: 20vw;
+	height: 60vh;
+	background-color: rgb(255, 0, 0);
+	color: rgb(255, 255, 0);
+}
+.box-black {
+	display: flex;
+	width: 20vw;
+	height: 60vh;
+	background-color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
+}
+h2 {
+	font-size: 32px;
+	align-self: center;
+	margin: auto;	
+}
