@@ -1,6 +1,3 @@
-.carousel-inner {
-    max-height: 40vmax;
-}
 
 .delante-opaco {
     position: absolute;
@@ -45,3 +42,28 @@ footer a {
     color: white;
 }
 
+main {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+
+}
+.entradas {
+    margin-top: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 12px;
+
+}
+.ticket {
+    margin: 12px auto;
+    width: 300px;   
+}
+.venta-title {
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
